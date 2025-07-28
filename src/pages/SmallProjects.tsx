@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { LanguageContext } from "../components/LanguageContext";
 export const SmallProjects = () => {
@@ -28,7 +28,18 @@ export const SmallProjects = () => {
             Real Projects
           </NavLink>
         </nav>
-        nothing here ):
+        <div className="grid grid-cols-3 my-5 text-center">
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/random"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Random Number Generator
+            </Link>
+          </div>
+
+          {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
+        </div>
       </div>
     );
   } else {
@@ -58,7 +69,18 @@ export const SmallProjects = () => {
             </NavLink>
           </nav>
         </nav>
-        Тут пока ничего нет(
+        <div className="grid grid-cols-3 my-5 text-center">
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/random"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Random Number Generator
+            </Link>
+          </div>
+
+          {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
+        </div>
       </div>
     );
   }

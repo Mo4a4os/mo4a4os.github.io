@@ -8,6 +8,7 @@ import { LanguageContext } from "./components/LanguageContext";
 import { NoRoute } from "./pages/NoRoute";
 import { SmallProjects } from "./pages/SmallProjects";
 import { RealProjects } from "./pages/RealProjects";
+import { RandomNumberGenerator } from "./pages/projects/Random-number-generator";
 function App() {
   const lang = localStorage.getItem("lang") || "ru";
   const [language, setLanguage] = useState(lang);
@@ -28,6 +29,7 @@ function App() {
             <Route path="*" element={<NoRoute />} />
             <Route path="/projects/small" element={<SmallProjects />} />
             <Route path="/projects/real" element={<RealProjects />} />
+            <Route path="/projects/small/random" element={<RandomNumberGenerator />} />
           </Routes>
           <div className="border-t mt-12 border-t-gray-800">
             <nav className="my-8 flex justify-between mx-52">
