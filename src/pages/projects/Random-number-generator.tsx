@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import { useState } from "react";
 export const RandomNumberGenerator = () => {
   const [randomNum, setRandomNum] = useState(0);
   const [max, setMax] = useState(0)
