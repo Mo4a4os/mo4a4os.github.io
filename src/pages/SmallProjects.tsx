@@ -37,7 +37,14 @@ export const SmallProjects = () => {
               Random Number Generator
             </Link>
           </div>
-
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/countdown"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Countdown Timer
+            </Link>
+          </div>
           {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
         </div>
       </div>
@@ -78,7 +85,14 @@ export const SmallProjects = () => {
               Random Number Generator
             </Link>
           </div>
-
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/countdown"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Countdown Timer
+            </Link>
+          </div>
           {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
         </div>
       </div>
