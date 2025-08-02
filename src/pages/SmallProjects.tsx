@@ -45,14 +45,7 @@ export const SmallProjects = () => {
               Countdown Timer
             </Link>
           </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/hellofromip"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Hello From Ip
-            </Link>
-          </div>
+          
           <div className="mx-10 my-3">
             <Link
               to="/projects/small/loremgenerator/home"
@@ -117,14 +110,7 @@ export const SmallProjects = () => {
               Countdown Timer
             </Link>
           </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/hellofromip"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Hello From Ip
-            </Link>
-          </div>
+          
           <div className="mx-10 my-3">
             <Link
               to="/projects/small/loremgenerator/home"
