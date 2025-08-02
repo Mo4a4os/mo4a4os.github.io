@@ -10,6 +10,13 @@ import { SmallProjects } from "./pages/SmallProjects";
 import { RealProjects } from "./pages/RealProjects";
 import { RandomNumberGenerator } from "./pages/projects/Random-number-generator";
 import { CountdownTimer } from "./pages/projects/CountdownTimer";
+import { HelloFromIp } from "./pages/projects/HelloFromIp";
+import { Home } from "./pages/projects/LoremGenerator/Home";
+import { Words } from "./pages/projects/LoremGenerator/Words";
+import { Sentences } from "./pages/projects/LoremGenerator/Sentences";
+import { Paragraphs } from "./pages/projects/LoremGenerator/Paragraphs";
+import {Calculator} from "./pages/projects/Calculator";
+
 function App() {
   const lang = localStorage.getItem("lang") || "ru";
   const [language, setLanguage] = useState(lang);
@@ -32,6 +39,12 @@ function App() {
             <Route path="/projects/real" element={<RealProjects />} />
             <Route path="/projects/small/random" element={<RandomNumberGenerator />} />
              <Route path="/projects/small/countdown" element={<CountdownTimer />} />
+             <Route path="/projects/small/helloip" element={<HelloFromIp />} />
+              <Route path="/projects/small/loremgenerator/home" element={<Home />} />
+          <Route path="/projects/small/loremgenerator/words" element={<Words />} />
+          <Route path="/projects/small/loremgenerator/sentences" element={<Sentences />} />
+          <Route path="/projects/small/loremgenerator/paragraphs" element={<Paragraphs />} />
+          <Route path="/projects/small/calculator" element={<Calculator />} />
           </Routes>
           <div className="border-t mt-12 border-t-gray-800">
             <nav className="my-8 flex justify-between mx-52">

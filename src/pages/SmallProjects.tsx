@@ -32,7 +32,7 @@ export const SmallProjects = () => {
           <div className="mx-10 my-3">
             <Link
               to="/projects/small/random"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
             >
               Random Number Generator
             </Link>
@@ -40,9 +40,33 @@ export const SmallProjects = () => {
           <div className="mx-10 my-3">
             <Link
               to="/projects/small/countdown"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
             >
               Countdown Timer
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/hellofromip"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
+            >
+              Hello From Ip
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/loremgenerator/home"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
+            >
+              Lorem-Ipsum Generator
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/calculator"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
+            >
+              Calculator
             </Link>
           </div>
           {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
@@ -80,7 +104,7 @@ export const SmallProjects = () => {
           <div className="mx-10 my-3">
             <Link
               to="/projects/small/random"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
             >
               Random Number Generator
             </Link>
@@ -88,12 +112,34 @@ export const SmallProjects = () => {
           <div className="mx-10 my-3">
             <Link
               to="/projects/small/countdown"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
             >
               Countdown Timer
             </Link>
           </div>
-          {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/hellofromip"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
+            >
+              Hello From Ip
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/loremgenerator/home"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
+            >
+              Lorem-Ipsum Generator
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/calculator"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
+            >Calculator</Link>
+          </div>
+          {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200" ></Link></div>*/}
         </div>
       </div>
     );
