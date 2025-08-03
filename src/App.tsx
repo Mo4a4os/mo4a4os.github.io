@@ -16,6 +16,7 @@ import { Words } from "./pages/projects/LoremGenerator/Words";
 import { Sentences } from "./pages/projects/LoremGenerator/Sentences";
 import { Paragraphs } from "./pages/projects/LoremGenerator/Paragraphs";
 import {Calculator} from "./pages/projects/Calculator";
+import { TodoListComp } from "./pages/projects/TodoList/components/TodoListComp";
 
 function App() {
   const lang = localStorage.getItem("lang") || "ru";
@@ -45,6 +46,7 @@ function App() {
           <Route path="/projects/small/loremgenerator/sentences" element={<Sentences />} />
           <Route path="/projects/small/loremgenerator/paragraphs" element={<Paragraphs />} />
           <Route path="/projects/small/calculator" element={<Calculator />} />
+          <Route path="/projects/small/todo" element={<TodoListComp />} />
           </Routes>
           <div className="border-t mt-12 border-t-gray-800">
             <nav className="my-8 flex justify-between mx-52">
