@@ -48,7 +48,7 @@ export const TodoListComp = () => {
       {todos.length === 0 && <p>Пока задач нет</p>}
       категория для поиска:
       <select
-        className="text-black ml-3"
+        className="text-black bg-white ml-3"
         value={filterCategory}
         onChange={(e) => setFilterCategory(e.target.value)}
       >

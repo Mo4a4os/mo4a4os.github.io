@@ -1,9 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 body {
   background-color: rgb(12, 12, 12);
   margin: 0;
   font-family: sans-serif;
   color: white;
+}
+input {
+  background-color: white;
 }

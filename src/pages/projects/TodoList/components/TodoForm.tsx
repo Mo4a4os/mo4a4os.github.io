@@ -35,12 +35,12 @@ export const TodoForm = ({ addTodo }: TodoFormProps) => {
 
   return (
     <form onSubmit={onSubmitHandle}>
-      <input className="m-3 p-1 text-black"
+      <input className="m-3 p-1 bg-white text-black"
         value={text}
         onChange={(e: ChangeEvent<HTMLInputElement>) => setText(e.target.value)}
         placeholder="Введи задачу"
       />
-      <select className="m-3 p-1 text-black"
+      <select className="m-3 p-1 bg-white text-black"
         value={category}
         onChange={(e: ChangeEvent<HTMLSelectElement>) => setCategory(e.target.value)}
       >
