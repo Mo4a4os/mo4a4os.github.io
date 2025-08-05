@@ -10,7 +10,6 @@ import { SmallProjects } from "./pages/SmallProjects";
 import { RealProjects } from "./pages/RealProjects";
 import { RandomNumberGenerator } from "./pages/projects/Random-number-generator";
 import { CountdownTimer } from "./pages/projects/CountdownTimer";
-
 import { Home } from "./pages/projects/LoremGenerator/Home";
 import { Words } from "./pages/projects/LoremGenerator/Words";
 import { Sentences } from "./pages/projects/LoremGenerator/Sentences";
@@ -64,6 +63,7 @@ function App() {
               >
                 Telegram
               </a>
+            
             </nav>
           </div>
         </BrowserRouter>
