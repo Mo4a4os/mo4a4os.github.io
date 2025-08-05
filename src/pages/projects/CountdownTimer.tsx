@@ -64,7 +64,7 @@ export const CountdownTimer = () => {
           setInputMonth(m);
           setInputDay(d);
         }}
-        className="text-black"
+        className="text-black bg-white"
         type="date"
       />
 

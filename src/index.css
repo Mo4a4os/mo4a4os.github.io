@@ -8,8 +8,9 @@ body {
   font-family: sans-serif;
   color: white;
 }
-input {
-  background-color: white;
+
+::selection {
+  @apply bg-white text-black;
 }
 
 @theme inline {
