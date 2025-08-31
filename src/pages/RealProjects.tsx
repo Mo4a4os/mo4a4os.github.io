@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { LanguageContext } from "../components/LanguageContext";
 export const RealProjects = () => {
@@ -28,7 +28,16 @@ export const RealProjects = () => {
             Real Projects
           </NavLink>
         </nav>
-        nothing here ):
+        <div className="mx-10 my-3">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/Mo4a4os/simple-todo-app"
+            className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+          >
+            Todo app with database
+          </a>
+        </div>
       </div>
     );
   } else {
@@ -58,7 +67,16 @@ export const RealProjects = () => {
             </NavLink>
           </nav>
         </nav>
-        Тут пока ничего нет(
+        <div className="mx-10 my-3">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/Mo4a4os/simple-todo-app"
+            className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+          >
+            Todo приложение с базой данных
+          </a>
+        </div>
       </div>
     );
   }
