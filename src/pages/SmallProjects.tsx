@@ -45,7 +45,7 @@ export const SmallProjects = () => {
               Countdown Timer
             </Link>
           </div>
-          
+
           <div className="mx-10 my-3">
             <Link
               to="/projects/small/loremgenerator/home"
@@ -62,10 +62,41 @@ export const SmallProjects = () => {
               Calculator
             </Link>
           </div>
-          <div className="mx-10 my-3"><Link to="/projects/small/todo" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" >Todo List</Link></div>
-          <div className="mx-10 my-3"><Link to="/projects/small/figma-1" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" >Figma Layout</Link></div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/todo"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Todo List
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/figma-1"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Figma Mockup
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/figma-2"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Figma Mockup 2
+            </Link>
+          </div>
           {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
         </div>
+        <p className="text-center">All Figma designs used in the Figma mockup are available at the following link: <br />
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-fuchsia-400"
+            href="https://www.figma.com/design/HjPyKuDyNlZPni7gsjAoqe"
+          >
+            https://www.figma.com/design/HjPyKuDyNlZPni7gsjAoqe
+          </a></p>
       </div>
     );
   } else {
@@ -112,7 +143,7 @@ export const SmallProjects = () => {
               Countdown Timer
             </Link>
           </div>
-          
+
           <div className="mx-10 my-3">
             <Link
               to="/projects/small/loremgenerator/home"
@@ -125,13 +156,50 @@ export const SmallProjects = () => {
             <Link
               to="/projects/small/calculator"
               className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >Calculator</Link>
+            >
+              Calculator
+            </Link>
           </div>
-         
-          <div className="mx-10 my-3"><Link to="/projects/small/todo" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" >Todo List</Link></div>
-          <div className="mx-10 my-3"><Link to="/projects/small/figma-1" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" >Figma верстка</Link></div>
+
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/todo"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Todo List
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/figma-1"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Figma верстка
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/figma-2"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Figma верстка 2
+            </Link>
+          </div>
           {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200" ></Link></div>*/}
         </div>
+        <p className="text-center">
+          Все Figma дизайны которые были использованы в Figma верстка находятся
+          по ссылке:
+          <br />
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            className="text-fuchsia-400"
+            href="https://www.figma.com/design/HjPyKuDyNlZPni7gsjAoqe"
+          >
+            https://www.figma.com/design/HjPyKuDyNlZPni7gsjAoqe
+          </a>
+        </p>
       </div>
     );
   }

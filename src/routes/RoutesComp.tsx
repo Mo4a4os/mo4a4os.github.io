@@ -14,6 +14,7 @@ import { Main } from "../pages/Main";
 import { Projects } from "../pages/Projects";
 import { Route, Routes } from 'react-router-dom';
 import Figma1 from '@/pages/projects/Figma1';
+import Figma2 from '@/pages/projects/Figma2';
 const RoutesComp = () => {
     {/*<Route element={< />} path="/" />*/}
   return (
@@ -51,6 +52,7 @@ const RoutesComp = () => {
     <Route path="/projects/small/calculator" element={<Calculator />} />
     <Route path="/projects/small/todo" element={<TodoListComp />} />
     <Route element={<Figma1 />} path="/projects/small/figma-1" />
+    <Route element={<Figma2 />} path="/projects/small/figma-2" />
   </Routes></div>
   )
 }
