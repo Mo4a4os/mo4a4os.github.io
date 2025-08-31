@@ -13,6 +13,7 @@ import { TodoListComp } from "../pages/projects/TodoList/components/TodoListComp
 import { Main } from "../pages/Main";
 import { Projects } from "../pages/Projects";
 import { Route, Routes } from 'react-router-dom';
+import Figma1 from '@/pages/projects/Figma1';
 const RoutesComp = () => {
     {/*<Route element={< />} path="/" />*/}
   return (
@@ -49,6 +50,7 @@ const RoutesComp = () => {
     />
     <Route path="/projects/small/calculator" element={<Calculator />} />
     <Route path="/projects/small/todo" element={<TodoListComp />} />
+    <Route element={<Figma1 />} path="/projects/small/figma-1" />
   </Routes></div>
   )
 }

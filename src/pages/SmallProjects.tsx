@@ -63,7 +63,7 @@ export const SmallProjects = () => {
             </Link>
           </div>
           <div className="mx-10 my-3"><Link to="/projects/small/todo" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" >Todo List</Link></div>
-          
+          <div className="mx-10 my-3"><Link to="/projects/small/figma-1" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" >Figma Layout</Link></div>
           {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
         </div>
       </div>
@@ -127,7 +127,9 @@ export const SmallProjects = () => {
               className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
             >Calculator</Link>
           </div>
+         
           <div className="mx-10 my-3"><Link to="/projects/small/todo" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" >Todo List</Link></div>
+          <div className="mx-10 my-3"><Link to="/projects/small/figma-1" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" >Figma верстка</Link></div>
           {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200" ></Link></div>*/}
         </div>
       </div>

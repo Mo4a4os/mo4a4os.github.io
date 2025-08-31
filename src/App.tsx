@@ -13,7 +13,7 @@ function App() {
   }, [language]);
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
-      <div className="px-28 dark text-3xl lg:text-2xl">
+      <div className="px-28 font-mono dark text-3xl lg:text-2xl">
         <BrowserRouter>
           {/*<Link className="inline-block mx-6 transform transition-transform duration-200 hover:scale-125" to="/">Главная</Link>
           <Link className="inline-block mx-6 transform transition-transform duration-200 hover:scale-125" to="/projects">Проекты</Link>*/}
