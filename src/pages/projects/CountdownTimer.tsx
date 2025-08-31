@@ -55,7 +55,7 @@ export const CountdownTimer = () => {
   }, [inputYear, inputMonth, inputDay]);
 
   return (
-    <div>
+    <div className="p-5">
       <input
         onChange={(e) => {
           const date = e.target.value; 

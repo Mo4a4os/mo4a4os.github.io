@@ -51,7 +51,7 @@ export const TodoListComp = () => {
       : todos.filter((todo) => todo.category === filterCategory);
 
   return (
-    <div className="text-center">
+    <div className="text-center p-6">
       <div className="mb-3"><h1>TodoList</h1>
       <TodoForm addTodo={addTodo} /></div>
       

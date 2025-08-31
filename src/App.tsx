@@ -13,14 +13,14 @@ function App() {
   }, [language]);
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
-      <div className="px-28 font-mono dark text-3xl lg:text-2xl">
+      <div className=" font-mono dark text-3xl lg:text-2xl">
         <BrowserRouter>
           {/*<Link className="inline-block mx-6 transform transition-transform duration-200 hover:scale-125" to="/">Главная</Link>
           <Link className="inline-block mx-6 transform transition-transform duration-200 hover:scale-125" to="/projects">Проекты</Link>*/}
           <Navbar />
           <RoutesComp />
 
-          <div className="border-t mt-12 border-t-gray-800">
+          <div className="border-t  mt-12 border-t-gray-800">
             <nav className="my-8 flex justify-between mx-52">
               <a
                 rel="noopener noreferrer"

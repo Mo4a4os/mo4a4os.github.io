@@ -5,7 +5,7 @@ export const RealProjects = () => {
   const { language } = useContext(LanguageContext);
   if (language === "en") {
     return (
-      <div>
+      <div className="p-8">
         <nav className="flex justify-center">
           <NavLink
             className={({ isActive }) =>
@@ -42,7 +42,7 @@ export const RealProjects = () => {
     );
   } else {
     return (
-      <div>
+      <div className="p-8">
         <nav>
           <nav className="flex justify-center">
             <NavLink

@@ -7,7 +7,7 @@ export const RandomNumberGenerator = () => {
   
   return (
     <div>
-      <div className="text-center my-4 ">
+      <div className="text-center p-4 ">
         <Input className="my-6" placeholder="min" type="number" onChange={(e) => {
             setMin(Number(e.target.value))
         }} />

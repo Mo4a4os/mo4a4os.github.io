@@ -40,7 +40,7 @@ export const Words = () => {
     },
   });
   return (
-    <div>
+    <div className="px-6">
      <nav className="flex justify-between mx-40 my-10">
         <NavLink className={({ isActive }) =>
             `inline-block mx-6 transform transition-transform duration-200 hover:scale-125 ${

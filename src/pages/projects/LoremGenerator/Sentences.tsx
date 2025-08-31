@@ -41,7 +41,7 @@ export const Sentences = () => {
     },
   });
   return (
-    <div>
+    <div className="px-6">
       <nav className="flex justify-between mx-40 my-10">
         <NavLink
           className={({ isActive }) =>

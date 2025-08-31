@@ -5,7 +5,7 @@ export const Main = () => {
   const { language } = useContext(LanguageContext);
   if (language === "ru") {
     return (
-      <div>
+      <div className="p-8">
         <h1 className="text-center font-bold text-5xl mb-3">Привет! </h1>
         <h2 className="text-center mb-6">
           Меня зовут Гаяз и я Full Stack Developer
@@ -102,7 +102,7 @@ export const Main = () => {
     );
   } else {
     return (
-      <div>
+      <div className="p-8">
         <h1 className="text-center font-bold text-5xl mb-3">Hello! </h1>
         <h2 className="text-center mb-6">
          My name is Gayaz and I am a Full Stack Developer
