@@ -17,27 +17,29 @@ const Figma1 = () => {
           </p>
         </div>
         <div className="justify-center mt-5 flex">
-          <a className="bg-zinc-800 text-white px-4 p-2.5 rounded-xl" href="#">
+          <a className="bg-zinc-800 text-white px-8 p-2.5 rounded-xl" href="#">
             Explore
           </a>
         </div>
         <div className="flex justify-center mx-2">
           <div className="grid grid-rows-2">
             <div className="grid grid-cols-4 gap-4 mt-10">
-              <img src="/images/figma1/Rectangle 3.png" alt="" />
-              <img src="/images/figma1/1.png" alt="" />
-              <img src="/images/figma1/2.png" alt="" />
-              <img src="/images/figma1/2-1.png" alt="" />
+              <img className="w-xs xl:w-md" src="/images/figma1/Rectangle 3.png" alt="" />
+              <img className="w-xs xl:w-md" src="/images/figma1/1.png" alt="" />
+              <img className="w-xs xl:w-md" src="/images/figma1/2.png" alt="" />
+              <img className="w-xs xl:w-md" src="/images/figma1/2-1.png" alt="" />
             </div>
             <div className="grid grid-cols-4 gap-4 my-4">
-              <img src="/images/figma1/3.png" alt="" />
-              <img src="/images/figma1/3-1.png" alt="" />
-              <img src="/images/figma1/4.png" alt="" />
-              <img src="/images/figma1/4-1.png" alt="" />
+              <img className="w-xs xl:w-md" src="/images/figma1/3.png" alt="" />
+              <img className="w-xs xl:w-md" src="/images/figma1/3-1.png" alt="" />
+              <img className="w-xs xl:w-md" src="/images/figma1/4.png" alt="" />
+              <img className="w-xs xl:w-md" src="/images/figma1/4-1.png" alt="" />
+            
             </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };
