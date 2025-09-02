@@ -15,6 +15,8 @@ import { Projects } from "../pages/Projects";
 import { Route, Routes } from 'react-router-dom';
 import Figma1 from '@/pages/projects/Figma1';
 import Figma2 from '@/pages/projects/Figma2';
+import Figma3 from "@/pages/projects/Figma3";
+import Figma4 from "@/pages/projects/Figma4";
 const RoutesComp = () => {
     {/*<Route element={< />} path="/" />*/}
   return (
@@ -53,6 +55,8 @@ const RoutesComp = () => {
     <Route path="/projects/small/todo" element={<TodoListComp />} />
     <Route element={<Figma1 />} path="/projects/small/figma-1" />
     <Route element={<Figma2 />} path="/projects/small/figma-2" />
+    <Route element={<Figma3 />} path="/projects/small/figma-3" />
+    <Route element={<Figma4 />} path="/projects/small/figma-4" />
   </Routes></div>
   )
 }

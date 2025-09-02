@@ -30,7 +30,7 @@ export const Projects = () => {
       </nav>
       <p className="my-8">
        Small projects are one-page sites that were made in
-        2-3 hours (mostly). Real projects, in turn, are sites above
+        1 hour (mostly). Real projects, in turn, are sites above
         which I really tried.
       </p>
       <p>P.S Some sites may not have Russian/English localization</p>
@@ -63,7 +63,7 @@ export const Projects = () => {
       </nav>
       <p className="my-8">
         Маленькие проекты - это одностраничные сайты, которые были сделаны за
-        2-3 часа (в основном). Настоящие проекты, в свою очередь, это сайты над
+        1 час (в основном). Настоящие проекты, в свою очередь, это сайты над
         которыми я действительно старался.
       </p>
       <p>P.S Некоторые сайты могут не иметь русской/английской локализации</p>

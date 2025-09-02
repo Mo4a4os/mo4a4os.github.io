@@ -86,9 +86,27 @@ export const SmallProjects = () => {
               Figma Mockup 2
             </Link>
           </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/figma-3"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Figma Mockup 3
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/figma-4"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Figma Mockup 4
+            </Link>
+          </div>
           {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
         </div>
-        <p className="text-center">All Figma designs used in the Figma mockup are available at the following link: <br />
+        <p className="text-center">
+          All Figma designs used in the Figma mockup are available at the
+          following link: <br />
           <a
             rel="noopener noreferrer"
             target="_blank"
@@ -96,7 +114,8 @@ export const SmallProjects = () => {
             href="https://www.figma.com/design/HjPyKuDyNlZPni7gsjAoqe"
           >
             https://www.figma.com/design/HjPyKuDyNlZPni7gsjAoqe
-          </a></p>
+          </a>
+        </p>
       </div>
     );
   } else {
@@ -183,6 +202,22 @@ export const SmallProjects = () => {
               className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
             >
               Figma верстка 2
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/figma-3"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Figma верстка 3
+            </Link>
+          </div>
+          <div className="mx-10 my-3">
+            <Link
+              to="/projects/small/figma-4"
+              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
+            >
+              Figma верстка 4
             </Link>
           </div>
           {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200" ></Link></div>*/}
