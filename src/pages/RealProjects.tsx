@@ -1,6 +1,16 @@
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { LanguageContext } from "../components/LanguageContext";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+  DialogFooter,
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
 export const RealProjects = () => {
   const { language } = useContext(LanguageContext);
   if (language === "en") {
@@ -28,15 +38,46 @@ export const RealProjects = () => {
             Real Projects
           </NavLink>
         </nav>
+
         <div className="mx-10 my-3">
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/Mo4a4os/simple-todo-app"
-            className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-          >
-            Todo app with database
-          </a>
+          <Dialog>
+            <DialogTrigger>
+              <p className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg">
+                Simple Todo App with Database
+              </p>
+            </DialogTrigger>
+            <DialogContent className="dark sticky scale-125 md:scale-100">
+              <DialogHeader>
+                <DialogTitle>Simple Todo App with Database</DialogTitle>
+                <DialogDescription>
+                  Kinda simple todo app with MongoDB database. You can add,
+                  delete and edit tasks. You can also mark tasks as completed.
+                  The app is built with React, Tailwind CSS, Node.js, Express
+                </DialogDescription>
+                <img src="/images/image.png" alt="" />
+              </DialogHeader>
+              <DialogFooter>
+                <Button className="cursor-pointer">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/Mo4a4os/simple-todo-app"
+                  >
+                    Github Source Code
+                  </a>
+                </Button>
+                <Button className="cursor-pointer">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://simple-todo-app-1.onrender.com"
+                  >
+                    Visit Website
+                  </a>
+                </Button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
         </div>
       </div>
     );
@@ -68,14 +109,44 @@ export const RealProjects = () => {
           </nav>
         </nav>
         <div className="mx-10 my-3">
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/Mo4a4os/simple-todo-app"
-            className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-          >
-            Todo приложение с базой данных
-          </a>
+          <Dialog>
+            <DialogTrigger>
+              <p className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg">
+                Simple Todo App with Database
+              </p>
+            </DialogTrigger>
+            <DialogContent className="dark sticky scale-125 md:scale-100">
+              <DialogHeader>
+                <DialogTitle>Simple Todo App with Database</DialogTitle>
+                <DialogDescription>
+                  Kinda simple todo app with MongoDB database. You can add,
+                  delete and edit tasks. You can also mark tasks as completed.
+                  The app is built with React, Tailwind CSS, Node.js, Express
+                </DialogDescription>
+                <img src="/images/image.png" alt="" />
+              </DialogHeader>
+              <DialogFooter>
+                <Button className="cursor-pointer">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/Mo4a4os/simple-todo-app"
+                  >
+                    Github Source Code
+                  </a>
+                </Button>
+                <Button className="cursor-pointer">
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://simple-todo-app-1.onrender.com"
+                  >
+                    Visit Website
+                  </a>
+                </Button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
         </div>
       </div>
     );
