@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { LanguageContext } from "../components/LanguageContext";
+import ProjectLink from "@/components/ProjectLink";
 export const SmallProjects = () => {
   const { language } = useContext(LanguageContext);
   if (language === "en") {
@@ -29,80 +30,21 @@ export const SmallProjects = () => {
           </NavLink>
         </nav>
         <div className="grid grid-cols-3 my-5 text-center">
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/random"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Random Number Generator
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/countdown"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Countdown Timer
-            </Link>
-          </div>
-
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/loremgenerator/home"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Lorem-Ipsum Generator
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/calculator"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Calculator
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/todo"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Todo List
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/figma-1"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Figma Mockup
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/figma-2"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Figma Mockup 2
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/figma-3"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Figma Mockup 3
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/figma-4"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Figma Mockup 4
-            </Link>
-          </div>
-          {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg" ></Link></div>*/}
+          <ProjectLink label='Random Number Generator' t="/projects/small/Random" />
+          <ProjectLink label="Countdown Timer" t="/projects/small/Countdown" />
+          <ProjectLink
+            label="lorem-ipsum generator"
+            t="/projects/small/loremgenerator/home"
+          />
+          <ProjectLink label="calculator" t="/projects/small/calculator" />
+          <ProjectLink label="Todo List" t="/projects/small/todo" />
+          <ProjectLink label="Figma Mockup" t="/projects/small/figma-1" />
+          <ProjectLink label="Figma Mockup 2" t="/projects/small/figma-2" />
+          <ProjectLink label="Figma Mockup 3" t="/projects/small/figma-3" />
+          <ProjectLink label="Figma Mockup 4" t="/projects/small/figma-4" />
+          {/*
+          <ProjectLink label='' t="/projects/small/" />
+          */}
         </div>
         <p className="text-center">
           All Figma designs used in the Figma mockup are available at the
@@ -146,81 +88,21 @@ export const SmallProjects = () => {
           </nav>
         </nav>
         <div className="grid grid-cols-3 my-5 text-center">
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/random"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Random Number Generator
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/countdown"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Countdown Timer
-            </Link>
-          </div>
-
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/loremgenerator/home"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Lorem-Ipsum Generator
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/calculator"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200"
-            >
-              Calculator
-            </Link>
-          </div>
-
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/todo"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Todo List
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/figma-1"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Figma верстка
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/figma-2"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Figma верстка 2
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/figma-3"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Figma верстка 3
-            </Link>
-          </div>
-          <div className="mx-10 my-3">
-            <Link
-              to="/projects/small/figma-4"
-              className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg"
-            >
-              Figma верстка 4
-            </Link>
-          </div>
-          {/* <div className="mx-10 my-3"><Link to="/projects/small/" className="p-3 inline-block bg-white text-black hover:scale-95 transform transition-transform rounded-lg hover:bg-slate-200" ></Link></div>*/}
+          <ProjectLink label='Random Number Generator' t="/projects/small/Random" />
+          <ProjectLink label="Countdown Timer" t="/projects/small/Countdown" />
+          <ProjectLink
+            label="lorem-ipsum generator"
+            t="/projects/small/loremgenerator/home"
+          />
+          <ProjectLink label="calculator" t="/projects/small/calculator" />
+          <ProjectLink label="Todo List" t="/projects/small/todo" />
+          <ProjectLink label="Figma верстка" t="/projects/small/figma-1" />
+          <ProjectLink label="Figma верстка 2" t="/projects/small/figma-2" />
+          <ProjectLink label="Figma верстка 3" t="/projects/small/figma-3" />
+          <ProjectLink label="Figma верстка 4" t="/projects/small/figma-4" />
+          {/*
+          <ProjectLink label='' t="/projects/small/" />
+          */}
         </div>
         <p className="text-center">
           Все Figma дизайны которые были использованы в Figma верстка находятся
