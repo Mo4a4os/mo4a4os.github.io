@@ -70,7 +70,7 @@ export const RealProjects = () => {
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://simple-todo-app-1.onrender.com"
+                    href="https://simple-todo-app-2.onrender.com"
                   >
                     Visit Website
                   </a>
@@ -139,7 +139,7 @@ export const RealProjects = () => {
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://simple-todo-app-1.onrender.com"
+                    href="https://simple-todo-app-2.onrender.com"
                   >
                     Visit Website
                   </a>
